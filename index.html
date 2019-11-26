@@ -1,0 +1,69 @@
+<!doctype html>
+
+<title>Test-Seite</title>
+
+<style>
+	h1 {
+		color: red;
+		font-family: helvetica;
+	}
+	span.beep {
+		color: pink;
+	}
+	span.loud {
+		font-weight: bold;
+		font-style: italic;
+	}
+	img {
+		max-height: 200px;
+	}
+
+	li:nth-child(even) {
+		background-color: pink;
+	}
+	li:hover {
+		background-color: grey;
+		cursor: pointer;
+	}
+</style>
+
+<h1>Hallo</h1>
+
+<p>Dies ist ein Test! <span class='beep'>*beep boop*</span></p>
+
+<ul>
+	<li>
+		<p>
+			Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+		</p>
+	</li>
+	<li>
+		<p>
+			Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+		</p>
+	</li>
+	<li>
+		<p>
+			Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+		</p>
+	</li>
+	<li>
+		<p>
+			...
+		</p>
+	</li>
+</ul>
+
+<p>
+	<img src=https://avatars2.githubusercontent.com/u/85259?s=460&v=4>
+</p>
+
+<p>
+	<span class='beep loud'>*Beep Boop*</span>
+</p>
+
+<script>
+	document
+		.getElementsByTagName('h1')[0]
+		.innerText = 'Hi there! 👋'
+</script>
